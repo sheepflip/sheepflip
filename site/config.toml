@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Freelancer Theme"
+title = "Sheepflip Graphic Design"
 theme = "hugo-freelancer-theme"
 
 
@@ -12,8 +12,8 @@ theme = "hugo-freelancer-theme"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mr. Hugo"
-    description = "My awesome description"
+    name = "Sheepflip"
+    description = "A graphic design studio in Washington, Maine. Providing all your print and web design services."
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -26,21 +26,21 @@ theme = "hugo-freelancer-theme"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "sheepflipped@gmail.com"
 
     # Custom assets
 	custom_css = []
 	custom_js  = []
 
     [params.navigation]
-        brand = "Mr. Hugo's Portfolio"
+        brand = "sheepflip"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
-        name = "Mr. Hugo"
-        subtitle = "Blogger - Programmer - Gopher"
+        name = "SHEEPFLIP"
+        subtitle = "Graphic Design Studio"
 
 
     [params.portfolio]
@@ -60,13 +60,13 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "SHEEPFLIP offers high quality graphic design services for print and web. I am operating from an offgrid, sustainable and low-impact yurt in Washington, Maine."
+        right = "Being a farmer myself, there's a special place in my heart for other farmers. So if you are a farmer and need my services, I would be more than happy to talk to you!"
 
         [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
-            icon = "download"
+            text = "Drop me a line"
+            link = "#contact"
+            icon = "email"
 
 
     [params.contact]
@@ -99,7 +99,7 @@ theme = "hugo-freelancer-theme"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+            address = ["346 Jefferson Road", "Washington, Maine 04574"]
 
         [params.footer.social]
             title = "Around the web"
@@ -108,7 +108,7 @@ theme = "hugo-freelancer-theme"
             # CSS class.
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+                link = "//github.com/sheeflip/"
 
             [[params.footer.social.networks]]
                 icon = "fa-stack-overflow"
