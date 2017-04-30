@@ -99,21 +99,25 @@ theme = "hugo-freelancer-theme"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["346 Jefferson Road", "Washington, Maine 04574"]
+            address = ["Washington, Maine 04574"]
 
         [params.footer.social]
             title = "Around the web"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
             # for more icons. The icons are represented by their corresponding
             # CSS class.
+
             [[params.footer.social.networks]]
+                icon = "fa-facebook"
+                link=  "//facebook.com/sheepflip"
+				
+				[[params.footer.social.networks]]
+                icon = "fa-twitter"
+                link = "//twitter.com/sheeflip/"
+
+			[[params.footer.social.networks]]
                 icon = "fa-github"
                 link = "//github.com/sheeflip/"
-
-            [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
-
 
         [params.footer.credits]
             title = "About Freelancer"
