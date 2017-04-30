@@ -60,8 +60,8 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "SHEEPFLIP offers high quality graphic design services for print and web. I am operating from an offgrid, sustainable and low-impact yurt in Washington, Maine."
-        right = "Being a farmer myself, there's a special place in my heart for other farmers. So if you are a farmer and need my services, I would be more than happy to talk to you!"
+        left = "SHEEPFLIP offers high quality graphic design services for print and web. I am operating from an offgrid, sustainable and low-impact farmstead in Washington, Maine."
+        right = "Being a farmer in addition to a designer, I am more than happy to work out trades with other farmers."
 
         [params.about.button]
             text = "Drop me a line"
